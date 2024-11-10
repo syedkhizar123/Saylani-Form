@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="img">
+        <img src="./logo.png" alt="" >
+    </div>
+    <div class="heading">
+        <h1>Registration Form SMIT</h1>
+    </div>
+
+    <table class="table">
+        <tr >
+            <td> <span class="span">Select Country </span><br><select class="select" name="Country" id="country">
+                <option value="Select Country"> Select Country</option>
+                <option value="Pakistan"> Pakistan</option>
+                <option value="Turkey"> Turkey</option>
+            </select></td>
+            <td> <span class="span">Select City </span><br><select class="select" name="City" id="city">
+                <option value="Select Country">Select City</option>
+                <option value="Karachi">Karachi</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="Quetta">Quetta</option>
+                <option value="Istanbul">Istanbul</option>
+            </select></td>
+        </tr>
+        <tr >
+            <td> <span class="span">Select Course or event </span><br><select class="select" name="Course or event" id="course">
+                <option value="Select Country">Select Course or event</option>
+                <option value="Web and Mobile App Development">Web and Mobile App Development </option>
+                <option value="Graphic Designing">Graphic Designing</option>
+                <option value="Python programming">Python programming</option>
+            </select></td>
+            <td> <span class="span">Select your computer proficiency </span><br><select class="select" name="Computer proficiency" id="proficiency">
+                <option value="Select Country">Select your computer proficiency</option>
+                <option value="Select your computer proficiency">Select your computer proficiency</option>
+                <option value="None">None</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select></td>
+        </tr>
+        <tr >
+            <td> <span class="span">Full Name</span><br><input name="Full Name" id="fullname" class="full-name" required placeholder="Full Name" type="text">  </td>
+            <td> <span class="span">Father Name</span><br><input name="Father Name" id="fathername" class="father-name" required placeholder="Father Name" type="text"> </td>
+        </tr>
+        <tr>
+            <td> <span class="span">Email</span><br><input name="Email" id="email" class="full-name" required placeholder="Email" type="email">  </td>
+            <td> <span class="span">Phone</span><br><input name="Phone" id="phone" class="father-name" required placeholder="Phone" type="number"> </td>
+        </tr>
+        <tr>
+            <td> <span class="span">CNIC</span><br><input name="CNIC" id="cnic" class="full-name" required placeholder="CNIC" type="text">  </td>
+            <td> <span class="span">Father's CNIC (optional)</span><br><input name="Father's CNIC" id="father'scnic" class="father-name"  required placeholder="Father's CNIC " type="text"> </td>
+        </tr>
+        <tr >
+            <td> <span class="span">Date of Birth</span><br><input name="Date of Birth" id="DateOfBirth" class="full-name"  required  type="date">  </td>
+            <td> <span class="span">Select Gender </span><br><select class="select" name="Course or event" id="Gender">
+                <option value="Select Gender">Select Gender</option>
+                <option value="Male">Male </option>
+                <option value="Female">Female</option>
+            </select></td>
+        </tr>
+        
+        
+
+    </table>
+
+    <table class="table">
+        <tr>
+            <td>
+                
+                    <span class="span">Address</span> <br><input name="Address" id="address" required class="address" type="text" placeholder="  Address"> 
+            </td>
+        </tr>
+        <tr>
+            <td> <span class="span">Last Qualification </span><br><select class="Select" name="Address" id="qualification">
+                <option value="Last Qualification">Last Qualification</option>
+                <option value="Matric">Matric </option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Undergraduate">Undergraduate </option>
+                <option value="Graduate">Graduate</option>
+                <option value="Masters">Masters </option>
+                <option value="PHD">PHD</option>
+                <option value="other">other</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td> <span class="span">Do you have a Laptop? </span><br><select class="Select" name="Do you have a Laptop?" id="Laptop">
+                <option value="Do you have a Laptop?">Do you have a Laptop?</option>
+                <option value="Yes">Yes </option>
+                <option value="No">No</option>
+            </select></td>
+        </tr>
+    </table>
+
+    <div class="btn-div">
+        <input class="submit-btn" type="submit" onclick="submit()">
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+.table{
+    margin: 0px auto;
+}
+.img{
+    text-align: center;
+
+}
+.heading{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.span{
+    color: rgb(52, 52, 185);
+    margin: 0px 10px;
+}
+.full-name{
+    width: 385px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 192, 0);
+    margin: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+.father-name{
+    width: 385px;
+    height: 50px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 192, 0);
+    margin: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.select{
+    width: 400px;
+    height: 53px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 1px solid rgb(0, 192, 0);
+    margin: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: grey;
+}
+.Select{
+    height: 53px;
+    color: grey;
+    padding-left: 5px;
+    width: 830px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 192, 0);
+    margin: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.address{
+    height: 50px;
+    color: grey;
+    padding-left: 15px;
+    width: 807px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 192, 0);
+    margin: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.select{
+    width: 400px;
+    height: 50px;
+}
+.btn-div{
+    height: max-content;
+    width: max-content;
+    margin: 0px auto;
+}
+.submit-btn{
+    padding: 15px 40px;
+    border-radius: 10px;
+    background-color: rgb(127, 241, 127);
+    color: black;
+    border: 3px solid black;
+}
